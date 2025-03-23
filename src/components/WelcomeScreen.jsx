@@ -21,21 +21,21 @@ export const WelcomeScreen = () => {
           <a href="https://github.com/paulriya9073" className="group">
             <img
               className='rounded-full transition-all duration-300 shadow-[0_0_25px_rgba(168,85,247,0.5)] hover:shadow-[0_0_30px_rgba(192,132,252,0.8)]'
-              src="public/github.svg"
+              src="/github.svg"
               alt="GitHub"
             />
           </a>
           <a href="https://www.linkedin.com/in/riya-paul-145135300/" className="group">
             <img
               className='rounded-full transition-all duration-300 shadow-[0_0_25px_rgba(168,85,247,0.5)] hover:shadow-[0_0_30px_rgba(192,132,252,0.8)]'
-              src="public/linkedin.svg"
+              src="/linkedin.svg"
               alt="LinkedIn"
             />
           </a>
           <a href="mailto:paulriya9073@gmail.com" className="group">
             <img
               className='rounded-full transition-all duration-300 shadow-[0_0_25px_rgba(168,85,247,0.5)] hover:shadow-[0_0_30px_rgba(192,132,252,0.8)]'
-              src="public/mail.png"
+              src="/mail.png"
               alt="Email"
             />
           </a>
