@@ -14,7 +14,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className="h-full w-full text-white py-5 overflow-x-auto overflow-y-hidden" id="about">
+    <div className="h-full w-full text-white py-5 overflow-x-hidden overflow-y-hidden" id="about">
       <div className="flex flex-col justify-center items-center mx-auto px-8 md:mx-16 lg:mx-24">
         <h2 data-aos="fade-down" className="text-6xl font-bold mb-12 font-serif italic">About Me</h2>
 
