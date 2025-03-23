@@ -4,7 +4,7 @@ import { FaFacebook, FaGithub, FaInstagram, FaInstagramSquare, FaLinkedin, FaTwi
 const Footer = () => {
   return (
     <footer className="w-full text-white py-8">
-      <div className="container mx-auto px-8">
+      <div className="container px-8">
         <div className="flex flex-col md:flex-row justify-between md:space-x-12 items-center mb-4">
           <div className="mb-4 md:mb-0">
             <h3 className="text-2xl font-bold mb-2">Riya</h3>
