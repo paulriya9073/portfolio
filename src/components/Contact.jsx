@@ -71,7 +71,7 @@ const Contact = () => {
 
     return (
         <>
-            <div className=" text-white py-20 overflow-y-hidden" id="contact">
+            <div className=" text-white overflow-x-hidden overflow-y-hidden" id="contact">
                 <div className=" items-center mx-auto px-8 md:mx-16 lg:mx-24">
                     <h2 data-aos="fade-down" className="text-6xl text-center font-bold mb-12 font-serif italic">Contact Me</h2>
                     <div className="flex flex-col md:flex-row items-center md:space-x-12 pt-8">

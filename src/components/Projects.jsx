@@ -113,7 +113,7 @@ const Projects = () => {
   };
   
   return (
-    <div className="text-white py-20 overflow-y-hidden" id="projects">
+    <div className="text-white py-20 overflow-x-hidden overflow-y-hidden" id="projects">
       <div className="flex flex-col justify-center items-center mx-auto px-8 md:mx-16 lg:mx-24">
         <h2 data-aos="fade-down" className="text-6xl text-center font-bold mb-12 font-serif italic">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pt-8">

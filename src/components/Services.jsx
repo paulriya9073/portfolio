@@ -30,7 +30,7 @@ const Services = () => {
     }, []);
   return (
     <>
-    <div className=" text-white py-20" id="services">
+    <div className=" text-white py-20 overflow-x-hidden overflow-y-hidden"  id="services">
             <div className="flex flex-col justify-center items-center mx-auto px-8 md:mx-16 lg:mx-24">
                 <h2 data-aos="fade-down" className="text-6xl font-bold mb-12 font-serif italic">Services</h2>
                 <div data-aos="zoom-out" className='pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8' >

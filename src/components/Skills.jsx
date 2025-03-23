@@ -31,7 +31,7 @@ useEffect(() => {
   const secondHalfSkills = skills.slice(Math.ceil(skills.length / 2));
 
   return (
-    <div className=" overflow-x-auto overflow-y-hidden text-white py-20" id="skills">
+    <div className=" overflow-x-hidden overflow-y-hidden text-white py-20" id="skills">
       <h2 data-aos="fade-down" className="text-6xl text-center font-bold mb-12 font-serif italic">My Skills</h2>
 
       <div className="flex flex-col md:flex-row justify-center gap-6 pt-8 px-4">
