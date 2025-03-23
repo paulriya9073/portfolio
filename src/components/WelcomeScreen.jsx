@@ -12,7 +12,7 @@ export const WelcomeScreen = () => {
   return (
     <div className='w-full h-screen flex justify-center items-center text-white bg-gradient-to-br from-[#0d060f] to-[#28032c]'>
       <div  className='flex h-96 flex-col gap-6 justify-center items-center'>
-        <h1 data-aos="fade-down" className='text-2xl md:text-5xl'>Hi! Welcome to my portfolio website </h1>
+        <h1 data-aos="fade-down" className='text-2xl md:text-5xl text-center'>Hi! Welcome to my portfolio website </h1>
         <div data-aos="zoom-out" className='text-xl md:text-3xl flex justify-center items-center gap-2'>
           <h2>Developer, </h2>
           <h2>Craft Enthusiast </h2></div>
