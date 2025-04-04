@@ -21,8 +21,6 @@ const Contact = () => {
         }, []);
 
     const formRef = useRef(null);
-    const [message, setMessage] = useState("");
-    const [isSuccess, setIsSuccess] = useState(null);
     const [isSubmitting, setIsSubmitting] = useState(false);
 
     const handleChange = (e) => {

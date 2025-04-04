@@ -50,7 +50,7 @@ const projects = [
     name: "Mind Memos",
     image: p1,
     description: "A creative platform to organize your thoughts and ideas. Users can register, write notes, edit notes, can perform their day-to-day work into a schedule",
-    live: "https://mindmemos.onrender.com/",
+    live: "https://mindmemos.vercel.app/",
     github: "https://github.com/paulriya9073/mindmemos",
     tech: "MongoDB, Express, ReactJS, NodeJS, TailwindCSS",
     features: [
