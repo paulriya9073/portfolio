@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS CSS
-import me1 from '../../public/me1.jpg';
 import { FaAward, FaBriefcase, FaSmile } from "react-icons/fa";
 
 const About = () => {
@@ -21,7 +20,7 @@ const About = () => {
         <div className='md:grid md:grid-cols-12 justify-center items-center gap-5'>
           {/* img */}
           <div data-aos="flip-right"className='md:col-span-6 flex justify-center items-center py-10'>
-            <img src={me1} className='w-60 h-60 md:w-72 md:h-72 rounded-md object-cover' />
+            <img src='/me1.webp' className='w-60 h-60 md:w-72 md:h-72 rounded-md object-cover' />
           </div>
 
           {/* content */}

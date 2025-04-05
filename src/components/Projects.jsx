@@ -60,7 +60,7 @@ const projects = [
     name: "JUFY",
     image: "/p4.webp",
     description: "A beautiful and interactive frontend",
-    live: "https://67f1407cc2817a93e760d028--stately-bavarois-1ca6f9.netlify.app/",
+    live: "https://jufy.netlify.app/",
     github: "https://github.com/paulriya9073/frontend1",
     tech: "HTML, CSS, JavaScript",
     features: [

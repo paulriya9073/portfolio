@@ -1,5 +1,4 @@
 import React from 'react';
-import Me from '../../public/me.jpg';
 import { FaEnvelope, FaGithub, FaLinkedin, FaTelegramPlane } from 'react-icons/fa';
 import { BsDownload, BsGithub } from 'react-icons/bs';
 import { Typewriter } from 'react-simple-typewriter';
@@ -59,7 +58,7 @@ const Main = () => {
 
                 {/* Right Image */}
                 <div className='py-10'>
-                    <img src={Me} className='w-60 h-60 md:w-72 md:h-72 rounded-full object-cover' />
+                    <img src='/me.webp' className='w-60 h-60 md:w-72 md:h-72 rounded-full object-cover' />
                 </div>
 
             </div>
