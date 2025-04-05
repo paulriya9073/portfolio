@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="w-full max-w-full px-4 md:px-8 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between md:space-x-12 items-center mb-4">
           <div className="mb-4 md:mb-0">
-            <h4 className="text-2xl font-bold mb-2">Riya</h4>
+            <h1 className="text-2xl font-bold mb-2">Riya</h1>
             <p className="text-gray-400">
               Full-Stack Developer based in the INDIA, specializing in web and
               software development.

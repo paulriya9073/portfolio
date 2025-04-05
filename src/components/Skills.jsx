@@ -48,7 +48,7 @@ useEffect(() => {
                   alt={skill.name} 
                   className="mb-4 w-16 h-16 mx-auto" 
                 />
-                <h4 className="text-xl font-bold text-center">{skill.name}</h4>
+                <h3 className="text-xl font-bold text-center">{skill.name}</h3>
               </div>
             ))}
           </div>
@@ -67,7 +67,7 @@ useEffect(() => {
                   alt={skill.name} 
                   className="mb-4 w-16 h-16 mx-auto" 
                 />
-                <h4 className="text-xl font-bold text-center">{skill.name}</h4>
+                <h3 className="text-xl font-bold text-center">{skill.name}</h3>
               </div>
             ))}
           </div>
