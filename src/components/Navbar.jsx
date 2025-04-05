@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { FaBars, FaTimes, FaHome, FaUser, FaTools, FaBriefcase, FaEnvelope, FaFileAlt } from "react-icons/fa";
 
 const Navbar = () => {
@@ -43,24 +44,24 @@ const Navbar = () => {
             Riya
           </div>
           <div className="flex gap-2 justify-center items-center text-xl font-semibold">
-          <a href="#main" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
+          <AnchorLink href="#main" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
               Home
-            </a>
-            <a href="#about" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
+            </AnchorLink>
+            <AnchorLink href="#about" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
               About
-            </a>
-            <a href="#skills" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
+            </AnchorLink>
+            <AnchorLink href="#skills" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
               Skills
-            </a>
-            <a href="#services" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
+            </AnchorLink>
+            <AnchorLink href="#services" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
               Services
-            </a>
-            <a href="#projects" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
+            </AnchorLink>
+            <AnchorLink href="#projects" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
               Projects
-            </a>
-            <a href="#contact" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
+            </AnchorLink>
+            <AnchorLink href="#contact" className="w-24 h-8 text-center text-white bg-fuchsia-900/20 hover:bg-fuchsia-900/40 rounded-full">
               Contact
-            </a>
+            </AnchorLink>
           </div>
         </div>
       </nav>
@@ -88,7 +89,7 @@ const Navbar = () => {
             <FaHome className="text-xl" />
             <span>Home</span>
           </a>
-          <a
+          <AnchorLink
             href="#about"
             className={`flex flex-col items-center text-sm ${
               activeSection === "about" ? "text-purple-400" : ""
@@ -96,8 +97,8 @@ const Navbar = () => {
           >
             <FaUser className="text-xl" />
             <span>About</span>
-          </a>
-          <a
+          </AnchorLink>
+          <AnchorLink
             href="#skills"
             className={`flex flex-col items-center text-sm ${
               activeSection === "skills" ? "text-purple-400" : ""
@@ -105,8 +106,8 @@ const Navbar = () => {
           >
             <FaFileAlt className="text-xl" />
             <span>Skills</span>
-          </a>
-          <a
+          </AnchorLink>
+          <AnchorLink
             href="#services"
             className={`flex flex-col items-center text-sm ${
               activeSection === "services" ? "text-purple-400" : ""
@@ -114,8 +115,8 @@ const Navbar = () => {
           >
             <FaTools className="text-xl" />
             <span>Services</span>
-          </a>
-          <a
+          </AnchorLink>
+          <AnchorLink
             href="#projects"
             className={`flex flex-col items-center text-sm ${
               activeSection === "projects" ? "text-purple-400" : ""
@@ -123,8 +124,8 @@ const Navbar = () => {
           >
             <FaBriefcase className="text-xl" />
             <span>Projects</span>
-          </a>
-          <a
+          </AnchorLink>
+          <AnchorLink
             href="#contact"
             className={`flex flex-col items-center text-sm ${
               activeSection === "contact" ? "text-purple-400" : ""
@@ -132,7 +133,7 @@ const Navbar = () => {
           >
             <FaEnvelope className="text-xl" />
             <span>Contact</span>
-          </a>
+          </AnchorLink>
         </div>
       )}
     </>

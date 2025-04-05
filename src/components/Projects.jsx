@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS CSS
-import p1 from "../../public/p1.png";
-import p2 from "../../public/p2.png";
-import p3 from "../../public/p3.png";
-import p4 from "../../public/p4.png";
-import p5 from "../../public/p5.png";
 import { FaExternalLinkAlt, FaInfoCircle } from 'react-icons/fa';
 import ProjectModal from './ProjectModal'; // Import the modal component
 import { FaAnglesRight, FaLeftRight } from 'react-icons/fa6';
@@ -16,7 +11,7 @@ const projects = [
   {
     id: 2,
     name: "Ecommerce Solution",
-    image: p2,
+    image: "/p2.webp",
     description: "A comprehensive solution for managing your online store with a interactive Admin dashboard with sales analytics,Product management system,Order tracking and management,User authentication with roles,Payment gateway integration,Visual data representation using Graphs and Pie-Charts,Build in Tax Calculator",
     live: "",
     github: "",
@@ -32,7 +27,7 @@ const projects = [
   {
     id: 3,
     name: "Tithi Tatwa Decoration",
-    image: p3,
+    image: "/p3.webp",
     description: "Tithi Tatwa Decoration, your premier destination for exquisite wedding tatwa decor that captures the essence of traditional Bengali culture With a passion for creating unforgettable experiences.",
     live: "",
     github: "",
@@ -48,7 +43,7 @@ const projects = [
   {
     id: 1,
     name: "Mind Memos",
-    image: p1,
+    image: "/p1.webp",
     description: "A creative platform to organize your thoughts and ideas. Users can register, write notes, edit notes, can perform their day-to-day work into a schedule",
     live: "https://mindmemos.vercel.app/",
     github: "https://github.com/paulriya9073/mindmemos",
@@ -63,10 +58,10 @@ const projects = [
   {
     id: 4,
     name: "JUFY",
-    image: p4,
+    image: "/p4.webp",
     description: "A beautiful and interactive frontend",
-    live: "",
-    github: "",
+    live: "https://67f1407cc2817a93e760d028--stately-bavarois-1ca6f9.netlify.app/",
+    github: "https://github.com/paulriya9073/frontend1",
     tech: "HTML, CSS, JavaScript",
     features: [
       "Responsive design across all devices",
@@ -78,7 +73,7 @@ const projects = [
   {
     id: 5,
     name: "Short Story",
-    image: p5,
+    image: "/p5.webp",
     description: "It is a Landing Page containing a Short Story with Parallax Scroling",
     live: "",
     github: "",
@@ -125,7 +120,7 @@ const Projects = () => {
               <div data-aos="flip-up" className="relative group">
                 <img
                   src={project.image}
-                  className="rounded-lg mb-4 w-full h-48 object-cover"
+                  className="rounded-lg mb-4 w-full"
                   alt={project.name}
                 />
     
