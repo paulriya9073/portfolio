@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="w-full max-w-full px-4 md:px-8 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between md:space-x-12 items-center mb-4">
           <div className="mb-4 md:mb-0">
-            <h3 className="text-2xl font-bold mb-2">Riya</h3>
+            <h4 className="text-2xl font-bold mb-2">Riya</h4>
             <p className="text-gray-400">
               Full-Stack Developer based in the INDIA, specializing in web and
               software development.
@@ -17,13 +17,13 @@ const Footer = () => {
             {/* <a href='https://www.facebook.com/profile.php?id=100078158615985' className="text-gray-400 hover:text-white text-2xl">
               <FaFacebook />
             </a> */}
-            <a href="https://wa.me/+919073817838" className="text-gray-400 hover:text-white text-2xl">
+            <a href="https://wa.me/+919073817838" aria-label="whatsapp link" className="text-gray-400 hover:text-white text-2xl">
               <FaWhatsappSquare />
             </a>
-            <a href="https://www.linkedin.com/in/riya-paul-145135300/" className="text-gray-400 hover:text-white text-2xl">
+            <a href="https://www.linkedin.com/in/riya-paul-145135300/" aria-label="linkedin link" className="text-gray-400 hover:text-white text-2xl">
               <FaLinkedin />
             </a>
-            <a href="https://github.com/paulriya9073" className="text-gray-400 hover:text-white text-2xl">
+            <a href="https://github.com/paulriya9073" aria-label="github link" className="text-gray-400 hover:text-white text-2xl">
               <FaGithub />
             </a>
             {/* <a href="https://www.instagram.com/r.i.y.a_p.a.u.l/" className="text-gray-400 hover:text-white text-2xl">
