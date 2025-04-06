@@ -9,6 +9,7 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Skills from './components/Skills'
 import { WelcomeScreen } from './components/WelcomeScreen'
+import AnimatedBackground from './components/AnimatedBackground'
 
 function App() {
   const [showWelcome, setShowWelcome] = useState(true);
@@ -36,7 +37,9 @@ function App() {
   }, [showCurtain]);
 
   return (
-    <div className='bg-gradient-to-br from-[#0d060f] to-[#28032c] min-h-screen relative'>
+    <>
+    <AnimatedBackground/>
+    <div className=' relative'>
       {/* Welcome screen with exit animation */}
       <AnimatePresence>
         {showWelcome && (
@@ -79,6 +82,7 @@ function App() {
         <Footer />
       </div>
     </div>
+     </>
   );
 }
 
