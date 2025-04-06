@@ -36,13 +36,13 @@ const AnimatedBackground = () => {
 
       {/* Grid */}
       <div
-        className="absolute inset-0 opacity-30"
+        className="absolute inset-0 opacity-100"
         style={{
           backgroundImage: `
             linear-gradient(to right, rgba(255,255,255,0.1) 1px, transparent 1px),
             linear-gradient(to bottom, rgba(255,255,255,0.1) 1px, transparent 1px)
           `,
-          backgroundSize: '1.5rem 1.5rem',
+          backgroundSize: '3rem 3rem',
         }}
       />
 
