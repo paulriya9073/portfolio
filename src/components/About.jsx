@@ -34,7 +34,7 @@ const About = () => {
       </div>
       <div className="h-auto flex flex-col md:flex-row justify-evenly gap-4 items-center mt-14">
       {/* Experience Card */}
-      <div data-aos="zoom-in" className="flex flex-col gap-2 justify-center items-center w-96 h-48 rounded-md shadow-inner shadow-fuchsia-800/30 bg-fuchsia-900/20"
+      <div data-aos="zoom-in" className="flex flex-col gap-2 justify-center items-center w-96 h-48 rounded-md shadow-inner shadow-fuchsia-800/30 bg-fuchsia-950"
       >
         <FaAward className="text-4xl text-white" />
         <h2 data-aos="fade-down" className="text-lg font-semibold text-white">Experience</h2>
@@ -42,14 +42,14 @@ const About = () => {
       </div>
 
       {/* Completed Projects Card */}
-      <div data-aos="zoom-in" data-aos-delay="200" className="flex flex-col gap-2 justify-center items-center w-96 h-48 bg-fuchsia-900/20 shadow-inner shadow-fuchsia-800/30">
+      <div data-aos="zoom-in" data-aos-delay="200" className="flex flex-col gap-2 justify-center items-center w-96 h-48 bg-fuchsia-950 shadow-inner shadow-fuchsia-800/30">
         <FaBriefcase className="text-4xl text-white" />
         <h2 data-aos="fade-down" data-aos-delay="300" className="text-lg font-semibold text-white">Completed</h2>
         <p data-aos="fade-up" data-aos-delay="400" className="text-sm text-gray-300">4+ Projects</p>
       </div>
 
       {/* Happy Clients Card */}
-      <div data-aos="zoom-in" data-aos-delay="400" className="flex flex-col gap-2 justify-center items-center w-96 h-48 rounded-md bg-fuchsia-900/20 shadow-inner shadow-fuchsia-800/30">
+      <div data-aos="zoom-in" data-aos-delay="400" className="flex flex-col gap-2 justify-center items-center w-96 h-48 rounded-md bg-fuchsia-950 shadow-inner shadow-fuchsia-800/30">
         <FaSmile className="text-4xl text-white" />
         <h2 data-aos="fade-down" data-aos-delay="500" className="text-lg font-semibold text-white">Happy Clients</h2>
         <p data-aos="fade-up" data-aos-delay="600" className="text-sm text-gray-300">3+ Clients</p>
