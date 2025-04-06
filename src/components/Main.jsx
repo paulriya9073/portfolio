@@ -15,7 +15,7 @@ const Main = () => {
                         <div className='pb-1 md:pb-3 text-5xl md:text-7xl text-transparent bg-clip-text bg-gradient-to-l from-purple-600 to-pink-500'>Riya Paul</div>
                         <span className="mt-5 text-transparent bg-clip-text bg-gradient-to-l from-pink-500 to-yellow-600">
                             <Typewriter
-                                words={['Full-Stack Developer','Frontend Developer','Backend Developer', 'Web Designer']}
+                                words={['Full-Stack Developer','Frontend Developer','Backend Developer']}
                                 loop={0}
                                 cursor
                                 cursorStyle='|'

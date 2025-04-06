@@ -13,11 +13,11 @@ const services=[
       title: "Backend Developer",
       description: "Developing robust server-side logic and database",
     },
-    {
-      id:3,
-      title: "Web Design",
-      description : "Createing visually appealing and user-friendly web designs"
-  },
+  //   {
+  //     id:3,
+  //     title: "Web Design",
+  //     description : "Createing visually appealing and user-friendly web designs"
+  // },
 ];
 
 const Services = () => {
@@ -33,7 +33,7 @@ const Services = () => {
     <div className=" text-white py-20 overflow-x-hidden overflow-y-hidden"  id="services">
             <div className="flex flex-col justify-center items-center mx-auto px-8 md:mx-16 lg:mx-24">
                 <h2 data-aos="fade-down" className="text-6xl font-bold mb-12 font-serif italic">Services</h2>
-                <div data-aos="zoom-out" className='pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8' >
+                <div data-aos="zoom-out" className='pt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8' >
                     {services.map((service)=>(
                       <div key={service.id} className='px-6 py-6 bg-fuchsia-900/20 shadow-inner shadow-fuchsia-800/30 rounded-lg transform transition-transform duration-300 hover:scale-105'>
                        
