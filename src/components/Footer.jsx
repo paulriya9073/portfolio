@@ -35,7 +35,7 @@ const Footer = () => {
 
         <div
           className="border-t border-gray-600 pt-4 flex flex-row 
-          justify-between items-center"
+          justify-center items-center"
         >
           <p className="text-gray-400">
             &copy;{new Date().getFullYear()} Riya All rights reserved.
