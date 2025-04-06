@@ -41,14 +41,14 @@ const Footer = () => {
             &copy;{new Date().getFullYear()}Riya All rights reserved.
           </p>
           
-          <div className="flex space-x-4">
+          {/* <div className="flex space-x-4">
             <a href="#" className="text-gray-400 hover:text-white">
               Privacy
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
               Terms of Service
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
