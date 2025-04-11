@@ -34,12 +34,12 @@ const Main = () => {
                         </a>
 
                         <div className='w-32 bg-gradient-to-r from-pink-600 to-yellow-600 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full font-semibold flex items-center gap-2'>
-                            <a href='https://drive.google.com/file/d/1miwfBWC9sfQV9oISRaoZ8ytugSsQgm6G/view?usp=sharing' className='flex items-center'>
+                            <a href='https://drive.google.com/file/d/1qEtfzCoEAN1QrF7nTi5o5PBZ3yRA-Kqc/view?usp=sharing' className='flex items-center'>
                                 Resume
                             </a>
-                            <a href="https://drive.usercontent.google.com/u/0/uc?id=1miwfBWC9sfQV9oISRaoZ8ytugSsQgm6G&export=download" className='hover:text-black text-xl' aria-label='aria-label="Download Resume PDF"'>
+                            {/* <a href="https://drive.usercontent.google.com/u/0/uc?id=1miwfBWC9sfQV9oISRaoZ8ytugSsQgm6G&export=download" className='hover:text-black text-xl' aria-label='aria-label="Download Resume PDF"'>
                                 <BsDownload />
-                            </a>
+                            </a> */}
                         </div>
                     </div>
                     <div className='my-6 flex justify-start gap-8 text-3xl'>
