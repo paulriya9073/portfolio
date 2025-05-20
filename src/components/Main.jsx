@@ -33,7 +33,7 @@ const Main = () => {
                             Say Hello! <FaTelegramPlane className='text-xl' />
                         </a>
 
-                        <div className='w-32 bg-gradient-to-r from-pink-600 to-yellow-600 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full font-semibold flex items-center gap-2'>
+                        <div className='w-32 bg-gradient-to-r from-pink-600 to-yellow-600 text-white transform transition-transform duration-300 hover:scale-105 px-4 py-2 rounded-full font-semibold flex justify-center items-center'>
                             <a href='https://drive.google.com/file/d/1qEtfzCoEAN1QrF7nTi5o5PBZ3yRA-Kqc/view?usp=sharing' className='flex items-center'>
                                 Resume
                             </a>
